@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+requests
+langchain-cohere
+python-dotenv
+PyPDF2
+python-docx
+pandas
