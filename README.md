@@ -8,13 +8,11 @@ It supports session-based memory so conversations flow naturally and can utilize
 ## 📂 Project Structure
 
 ```
-streamlit/
-├── .gitignore
-├── main.py        # FastAPI backend (chat API with Cohere)
-├── app.py         # Streamlit frontend (chat UI)
-├── requirements.txt
-└── README.md
-```
+├── main.py           # FastAPI backend (chat API with Cohere)
+├── app.py            # Streamlit frontend (chat UI)
+├── requirements.txt  # Python dependencies
+└── README.md         # Project documentation
+
 
 ---
 
@@ -95,4 +93,5 @@ https://rawanai-chatbot-hqzmtjfjx9xjs6uxuatcj8.streamlit.app/
 ## 📜 License
 
 This project is for **educational/demo purposes**. Feel free to fork and extend it!
+
 
