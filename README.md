@@ -8,11 +8,11 @@ It supports session-based memory so conversations flow naturally and can utilize
 ## 📂 Project Structure
 
 ```
-├── main.py           # FastAPI backend (chat API with Cohere)
-├── app.py            # Streamlit frontend (chat UI)
-├── requirements.txt  # Python dependencies
-└── README.md         # Project documentation
-
+├── main.py        # FastAPI backend (chat API with Cohere)
+├── app.py         # Streamlit frontend (chat UI)
+├── requirements.txt
+└── README.md
+```
 
 ---
 
@@ -49,9 +49,6 @@ Create a `.env` file in the `streamlit/` folder:
 ```
 COHERE_API_KEY=your_cohere_api_key_here
 ```
-
-⚠️ **Do not commit `.env` to GitHub — keep it private.**
-On **Streamlit Cloud**, set the key under **App Settings → Secrets**.
 
 ---
 
@@ -93,5 +90,3 @@ https://rawanai-chatbot-hqzmtjfjx9xjs6uxuatcj8.streamlit.app/
 ## 📜 License
 
 This project is for **educational/demo purposes**. Feel free to fork and extend it!
-
-
